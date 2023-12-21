@@ -9,12 +9,13 @@ import { AboutComponent } from './about/about.component';
 import { LoginComponent } from './login/login.component';
 
 export const routes: Routes = [
-    {path:'', 'title': 'Home', component:HomeComponent},
+    {path: 'home', 'title': 'Home', component:HomeComponent},
     {path: 'header', component: HeaderComponent},
     {path: 'login','title': 'Login', component: LoginComponent},
     {path: 'destination','title': 'Destination', component: DestinationComponent},
     {path: 'about', 'title': 'About', component: AboutComponent},
     {path: 'contact','title': 'Contact', component: ContactComponent},
     {path: 'footer', component: FooterComponent},
-    {path:'**', 'title': 'Error', component:PageNotFoundComponent}
+    {path: '', redirectTo: '/home', pathMatch: 'full'},
+    {path: '**', 'title': 'Error', component:PageNotFoundComponent}
 ]
