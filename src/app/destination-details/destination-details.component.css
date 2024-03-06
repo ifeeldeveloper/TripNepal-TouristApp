@@ -1,0 +1,37 @@
+.destination-detail {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.destination-detail h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.destination-detail h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.destination-detail p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+.destination-detail a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+.destination-detail a:hover {
+    text-decoration: underline;
+}
+
+.destination-detail p:last-child {
+    margin-bottom: 0;
+}
